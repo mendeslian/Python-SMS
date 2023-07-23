@@ -1,14 +1,15 @@
 Notificador de Vendas com Python e SMS
 
-O projeto "Python-SMS" é uma solução inteligente desenvolvida em Python para auxiliar empresas e equipes de vendas a acompanhar o desempenho individual dos vendedores. 
+O projeto "Python-SMS" é uma solução inteligente desenvolvida em Python, utilizando as poderosas bibliotecas Pandas e Twilio. 
+Ele tem como objetivo auxiliar empresas e equipes de vendas a acompanhar o desempenho individual dos vendedores em relação às metas estabelecidas.
 O sistema utiliza planilhas de Excel contendo dados de vendas mensais de 1000 vendedores ao longo de 6 meses. 
 Quando um vendedor atinge ou ultrapassa o valor de R$ 55.000,00 em vendas, o Python dispara uma notificação SMS personalizada para o número de celular do vendedor responsável pelo feito.
 
 Funcionamento:
 
-- O código em Python é capaz de ler e processar automaticamente as planilhas de Excel referentes a cada mês do ano, identificando os dados de vendas dos 1000 vendedores em cada período.
-- Ao atingir ou superar a meta de R$ 55.000,00 em vendas, o Python ativa o módulo de notificação SMS para o respectivo número de celular cadastrado para o vendedor.
-- Uma mensagem SMS personalizada é enviada instantaneamente ao celular do vendedor, informando sobre sua conquista e reconhecendo o excelente resultado alcançado.
+- O código em Python, utilizando a biblioteca Pandas, é capaz de ler e processar automaticamente as planilhas de Excel referentes a cada mês do ano, identificando os dados de vendas dos 1000 vendedores em cada período.
+- Ao atingir ou superar a meta de R$ 55.000,00 em vendas, o Python utiliza a plataforma Twilio para enviar uma notificação SMS personalizada para o número de celular cadastrado para o vendedor.
+- O Twilio possibilita o envio rápido e seguro de mensagens SMS ao celular do vendedor, informando sobre sua conquista e reconhecendo o excelente resultado alcançado.
 
 Automatização e Eficiência:
 
